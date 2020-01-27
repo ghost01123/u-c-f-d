@@ -1,5 +1,12 @@
     
-    <!----FOOTER--------->
+
+body {
+    position: relative;
+}
+
+
+
+    <!---------FOOTER--------->
 
 footer{
     height: 150px;
@@ -19,3 +26,9 @@ footer{
     padding: 5%;
     color: #777777;
 }
+
+.progress {
+	margin: 20px;
+}
+
+    <link rel="stylesheet" href="./libraries/bootstrap.min.css" type="text/css" />
