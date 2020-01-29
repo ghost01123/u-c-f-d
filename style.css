@@ -1,15 +1,90 @@
     
-
+    /*---------body---------*/
 body {
     position: relative;
 }
+h1 {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+    /*---------header/ jumbo---------*/
+.jumbotron{
+	height: 450px;
+	background: url("./images/CN-AA369_futcit_M_20160711125352.jpg") no-repeat;
+	background-size: cover;
+	padding-top-top: 1000px;
+}
 
 
+    /*---------pages/ sections---------*/
 
-    <!---------FOOTER--------->
+.c1-bg{
+	background: ;
+	height: 50vh;
+}
 
+.c2-bg{
+	background: ;
+	height: 50vh;
+}
+
+.c3-bg{
+	background: ;
+	height: 50vh;
+}
+
+.c4-bg{
+	background: ;
+	height: 50vh;
+}
+
+.c5-bg{
+	background: ;
+	height: 50vh;
+}
+
+.c6-bg{
+	background: ;
+	height: 50vh;
+}
+
+.c7-bg{
+	background: ;
+	height: 50vh;
+}
+
+.coin-links i {
+	margin: 30px;
+	color: #777777;
+	-webkit-transform: scale(3);  /* Chrome, Safari, Opera */
+       -moz-transform: scale(3);  /* Firefox */
+        -ms-transform: scale(3);  /* IE 9 */
+            transform: scale(3);  /* Modern Browsers */   
+
+}
+
+i:hover{
+	color: #e84610;
+	cursor: pointer;
+}
+
+    /*---------nav---------*/
+.fb1 {
+    position: fixed;
+    right: 0;
+    bottom: 48%;
+    left: 0;
+    z-index: 0;
+}
+
+
+    /*---------footer---------*/
 footer{
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks{
@@ -31,4 +106,6 @@ footer{
 	margin: 20px;
 }
 
-    <link rel="stylesheet" href="./libraries/bootstrap.min.css" type="text/css" />
+
+
+./images/cn-aa369_futcit_m_201607111253.jpg
