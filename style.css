@@ -2,6 +2,7 @@
     /*---------body---------*/
 body {
     position: relative;
+    background: url("./images/bg.jpg") ;
 }
 h1 {
 	text-align: center;
@@ -14,27 +15,61 @@ h1 {
     /*---------header/ jumbo---------*/
 .jumbotron{
 	height: 450px;
-	background: url("./images/CN-AA369_futcit_M_20160711125352.jpg") no-repeat;
+	background: url("./images/CN-AA369_futcit_M_20160711125352.jpg") ;
 	background-size: cover;
 	padding-top-top: 1000px;
+
 }
 
 
+
+
+
+.card {
+	left: 6%;
+	right: 6%;
+	align-items: center;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+
+}
     /*---------pages/ sections---------*/
 
-.c1-bg{
-	background: ;
-	height: 50vh;
+.heading-img img {
+
 }
+
+
+.c1-bg{
+	background: url("./images/O7GZQQ0.jpg") ;
+	height: 63vh;
+}
+/*
+.c1-h1 {
+	padding-top: 60px;
+	background: url("./images/monero-logo-symbol-on-white-1280.png") no-repeat;
+	background-size: contain;
+	position: center ;
+	transform: translate(330px, 0px);
+}
+
+*/
 
 .c2-bg{
-	background: ;
-	height: 50vh;
+	background: url("./images/O7GZQQ0.jpg") ;
+	height: 63vh;
 }
 
+.c2-bg .card-text {
+	color: #c749b6
+}
+
+
+
 .c3-bg{
-	background: ;
-	height: 50vh;
+	background: url("./images/O7GZQQ0.jpg") ;
+	height: 63vh;
 }
 
 .c4-bg{
@@ -58,12 +93,15 @@ h1 {
 }
 
 .coin-links i {
-	margin: 30px;
+	margin: 0px 30px 0px 30px;
 	color: #777777;
 	-webkit-transform: scale(3);  /* Chrome, Safari, Opera */
        -moz-transform: scale(3);  /* Firefox */
         -ms-transform: scale(3);  /* IE 9 */
-            transform: scale(3);  /* Modern Browsers */   
+            transform: scale(3);  /* Modern Browsers */  
+        transition: all .27s ease-in;
+    -moz-transition: all .27s ease-in;
+    -webkit-transition: all .27s ease-in; 
 
 }
 
@@ -71,6 +109,10 @@ i:hover{
 	color: #e84610;
 	cursor: pointer;
 }
+
+
+
+
 
     /*---------nav---------*/
 .fb1 {
@@ -99,7 +141,8 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #590ecc;
+    text-decoration: none;
 }
 
 .progress {
