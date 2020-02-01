@@ -10,6 +10,11 @@ h1 {
 
 .center {
 	text-align: center;
+	align-items: center;
+}
+
+.main-body {
+
 }
 
     /*---------header/ jumbo---------*/
@@ -18,22 +23,32 @@ h1 {
 	background: url("./images/CN-AA369_futcit_M_20160711125352.jpg") ;
 	background-size: cover;
 	padding-top-top: 1000px;
-
+	z-index: 3;
 }
 
+.hero-image {
+		z-index: 3;
+
+		} bgvy ghjnvg bhnv
 
 
 
 
 .card {
-	left: 6%;
-	right: 6%;
+	left: 5%;
 	align-items: center;
-    transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
+
 
 }
+
+.card {
+		-webkit-transform: translate(10%, 0px);  /* Chrome, Safari, Opera */
+		   -moz-transform: translate(10%, 0px);  /* Firefox */
+			-ms-transform: translate(10%, 0px);  /* IE 9 */
+				transform: translate(10%, 0px);  /* Standard syntax */    
+	}
+
+
     /*---------pages/ sections---------*/
 
 .heading-img img {
@@ -43,7 +58,12 @@ h1 {
 
 .c1-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
-	height: 63vh;
+	margin: 0px 0 30px 0;
+	width: 100vw;
+	padding-bottom: 120px;
+	padding-top: ;
+
+
 }
 /*
 .c1-h1 {
@@ -58,7 +78,10 @@ h1 {
 
 .c2-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
-	height: 63vh;
+	margin: 0px 0 30px 0;
+	width: 100vw;
+	padding-bottom: 120px;
+	padding-top: ;
 }
 
 .c2-bg .card-text {
@@ -69,31 +92,56 @@ h1 {
 
 .c3-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
-	height: 63vh;
+	margin: 0px 0 30px 0;
+	width: 100vw;
+	padding-bottom: 120px;
+	padding-top: ;
 }
 
 .c4-bg{
-	background: ;
-	height: 50vh;
+	background: url("./images/O7GZQQ0.jpg") ;
+	margin: 0px 0 30px 0;
+	width: 100vw;
+	padding-bottom: 120px;
+	padding-top: ;
 }
 
 .c5-bg{
-	background: ;
-	height: 50vh;
+	background: url("./images/O7GZQQ0.jpg") ;
+	margin: 0px 0 30px 0;
+	width: 100vw;
+	padding-bottom: 120px;
+	padding-top: ;
+
 }
 
 .c6-bg{
-	background: ;
-	height: 50vh;
+	background: url("./images/O7GZQQ0.jpg") ;
+	margin: 0px 0 30px 0;
+	width: 100vw;
+	padding-bottom: 120px;
+	padding-top: ;
+
 }
 
 .c7-bg{
-	background: ;
-	height: 50vh;
+	background: url("./images/O7GZQQ0.jpg") ;
+	margin: 0px 0 30px 0;
+	width: 100vw;
+	padding-bottom: 120px;
+	padding-top: ;
+}
+
+.c8-bg{
+	background: url("./images/O7GZQQ0.jpg") ;
+	margin: 0px 0 30px 0;
+	width: 100vw;
+	padding-bottom: 120px;
+	padding-top: ;
 }
 
 .coin-links i {
-	margin: 0px 30px 0px 30px;
+	margin: 0px 39px 0px 39px;
 	color: #777777;
 	-webkit-transform: scale(3);  /* Chrome, Safari, Opera */
        -moz-transform: scale(3);  /* Firefox */
@@ -121,12 +169,22 @@ i:hover{
     bottom: 48%;
     left: 0;
     z-index: 0;
+    overflow: hidden;
+
+}
+nav,
+.nav{
+	z-index: 0;
+	overflow: hidden;
+
 }
 
 
     /*---------footer---------*/
 footer{
     height: 100px;
+
+	margin-top: 120px;
 }
 
 .social-networks{
@@ -149,6 +207,14 @@ footer{
 	margin: 20px;
 }
 
+.social-networks i:hover, 
+a:hover{
+color: #ff3300;
+cursor: pointer;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
 
 
 ./images/cn-aa369_futcit_m_201607111253.jpg
