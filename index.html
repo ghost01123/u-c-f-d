@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="shortcut icon" type="image/x-icon" href="images/256x256-png-images-3.png">
 <link rel="stylesheet" href="./libraries/css/all.css" type="text/css" />  
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:600i&display=swap&effect=anaglyph|outline|shadow-multiple" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -14,14 +15,17 @@
     <title>Top crypto recomendations</title>
 </head>
 
+https://coinguides.org/xmrig-beginners-guide/
+
+
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
 
 	<!------------TOP-JUMBOTRON/ init pg/ header------------>
-	<div class="jumbotron jumbotron-fluid hero-image">
+	<div class="jumbotron jumbotron-fluid hero-image" style="">
 	</div>
 	<div class="container text-center">
-	    <h1><i class="fab fa-android"></i> Top crypto recomendations <i class="fab fa-android"></i></h1>
+	    <h2 class="font-effect-anaglyph "><i class="fab fa-android"></i> Top crypto recomendations <i class="fab fa-android"></i></h2>
 	  </div>
 	<!--
 		<p>Crypto...</p>
@@ -33,10 +37,10 @@
 	https://www.pexels.com/search/shanghai%20highway%20at%20night/ -->
 
 	<!------------Vertical Scrollspy menu------------>
-	<div class="container-fluid main-body nav">
+	<div class="container-fluid main-body">
 	  <div class="row">
 	    <nav class="col-1" id="myScrollspy">                          
-	      <ul class="nav nav-pills col flex-column fb1 ">
+	      <ul class="nav nav-pills col-1 flex-column fb1 ">
 	        <li class="nav-item">
 	          <a class="nav-link active" href="#coin-1">Crypto 1</a>
 	        </li>
@@ -68,15 +72,26 @@
     <!---------coin-1--------->
 			 <div id="coin-1" class="container-fluid c1-bg ">
 			 	<!---------Monero--------->
-			 	<img src="./images/monero-logo-symbol-on-white-1280.png" class="heading-img" style="height: 210px;">
-			 	<h1 class="c1-h1"></h1>
+			 	<div class="row">
+			 		<div class="col-2">
+			 			<img src="./images/monero-symbol-on-white-480.png" class="heading-img" style="height: 210px;">
+			 		</div>
+			 		<div class="col-10">
+			 			<h1 class="c1-h1 outline font-effect-outline"> <strong>Monero</strong> </h1>
+			 		</div>
+			 		
+			 	</div>
+			 	
+			 	
 			 	<div class="row">
 			        <div class="card-deck">
 						  <div class="card bg-primary" style="background-color: #f36b21 !important; width: 510px">
 						    <div class="card-body text-center">
 						      <p class="card-text">
-						      	Monero (XMR) is a private, secure, and untraceable cryptocurrency that was launched April 18th, 2014.
+						      	Monero (XMR) is a private, secure, and untraceable cryptocurrency that was launched in April 18th, 2014.
+						      	<br>
 								 With Monero, you are in complete control of your funds and privacy, it is said that no one else can see anyone else's balances or transactions.
+								 <br>
 
 
 								Monero started when there were concerns about Bitcoin's on-chain privacy. Monero uses ring signatures, ring confirmation structures and stealth addresses to obfuscate the origins, destinations, and amounts of transactions.
@@ -90,7 +105,9 @@
 						      <p class="card-text">
 						      Technology points:
 							Monero (XMR) is a secure, private, and untraceable cryptocurrency aimed to give users complete control of their funds and privacy so no one else can see anyone else's balances or transactions.
-							Monero uses POW with CryptoNote protocol and allows upgrades every 6 months in the network. They implemented their wallet with the ability to easily set up nodes, mine or interact with the network.
+							<hr>
+							Monero uses POW with the CryptoNote protocol and allows upgrades every 6 months in the netw1ork.
+							<hr>
 							Using ring signatures, Monero is able to ensure that transactions are not only untraceable but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
 						  </p>
 						    </div>
@@ -101,17 +118,22 @@
 			    <div class="row">
 			        <div class="col-10">
 			        <!---------progress bar--------->
+			        	<p id="prog-bars-txt" style="display: block;">overall Grade:</p>
 					    <div class="progress" style="height: 27px;">
+					    	<p style="display: block;">overall Grade:</p>
 					        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 89%">
 					            #1
 					        </div>
 					    </div>
+					    <p style="display: block;">fundamental score:</p>
 					    <div class="progress" style="height: 27px;">
+					    	<p style="display: block;">fundamental score:</p>
 					        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 85%">
 					            #2
 					        </div>
 					    </div>
 					    <div class="progress" style="height: 27px;">
+					    	<p style="display: block;">technology score:</p>
 					        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 59%">
 					            #3
 					        </div>
@@ -133,8 +155,14 @@
 			    <!---------coin-2--------->
 			 <div id="coin-2" class="container-fluid c2-bg">
 			 	<!---------ethereum--------->
-			 	<img src="./images/Dde__W6VAAIsngo.png" class="heading-img" style="height: 210px;">
-			 	<h1></h1>
+				<div class="row">
+					<div class="col-2">
+						<img src=".\images\avatar-icon.png" class="heading-img" style="height: 210px;">
+					</div>	 	
+				 	<div class="col-10">
+				 			<h1 class="c1-h1 outline font-effect-outline"> <strong>Ethereum</strong> </h1>
+				 		</div>
+			 	</div>
 			 	<div class="row">
 			        <div class="card-deck">
 						  <div class="card bg-primary" style="background-color: #464a75 !important; width: 510px">
@@ -143,7 +171,7 @@
 						      	Ethereum Project Description
 								Ethereum (ETH) is a smart contract platform that enables developers to build decentralized applications (dapps) conceptualized by Vitalik Buterin in 2013.
 								 ETH is the native currency for the Ethereum platform and also works as the transaction fees to miners on the Ethereum network.
-
+								 <br>
 								Ethereum is the pioneer for blockchain based smart contracts. When running on the blockchain a smart contract becomes like a self-operating computer program that automatically executes when specific conditions are met.
 								 On the blockchain, smart contracts allow for code to be run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference. 
 								It can facilitate the exchange of money, content, property, shares, or anything of value.
@@ -155,15 +183,12 @@
 						      <p class="card-text-2">
 						      Technology points:
 							Ethereum is an open-source public blockchain, and Ether is a native token generated by the Ethereum platform.
-
-							Ethereum provides a decentralized virtual machine, the Ethereum Virtual Machine(EVM) which executes Smart Contracts on the Blockchain for the first time.
-
+							<hr>
+							Ethereum provides a decentralized virtual machine, the Ethereum Virtual Machine(EVM) which executes Smart Contracts on the Blockchain, which was the first.
 							the Ethereum Smart contracting language is the Turing-complete Solidity.
-
-							Ethereum's gas units price can be specified in a transaction which is measured in Gwei.
+							<hr>
 							the Ethereum Block time is 14-15 seconds.
-							Ethereum uses Ethash SHA-3 as the proof-of-workhash function.
-
+							Ethereum used Ethash SHA-3 as the proof-of-workhash function.
 							Transaction fees depend on the PoW computational complexity, bandwidth use and storage needs
 						  </p>
 						    </div>
@@ -206,17 +231,23 @@
 			    <!---------coin-3--------->
 			 <div id="coin-3" class="container-fluid c3-bg">
 			 	<!---------Binance (BNB)--------->
-			 	<img src="./images/Binance-Coin.jpg" class="heading-img" style="height: 210px;">
-			 	<h1></h1>
+			 	<div class="row">
+					<div class="col-2">
+						<img src=".\images\Binance-Coin1.jpg" class="heading-img" style="height: 210px;">
+					</div>	 	
+				 	<div class="col-10">
+				 			<h1 class="c1-h1 outline font-effect-outline"> <strong>Binance</strong> </h1>
+				 	</div>
+			 	</div>
 			 	<div class="row">
 			        <div class="card-deck">
 						  <div class="card bg-primary" style="background-color: #464a75 !important; width: 510px">
 						    <div class="card-body text-center">
 						      <p class="card-text">
-						      	Binance Coin (BNB) is the cryptocurrency of the Binance platform. The name "Binance" is a combination of binary and finance. As of 2019, many businesses accept BNB as a form of payment.
-						      	<br>
-								Binance is one of the biggest crypto-asset exchanges in the world. BNB is used by Binance to incentivize users through lowered fees for BNB holders on Binance exchange. The exchange also uses a certain percentage of the profits to buy-back BNB and burn them, to create scarcity. This way, the exchange uses token economics to transfer value to the token holders.
-								Though BNB has decent token economics, there has been a lot of criticism related to its characteristics seem a lot like that of security. Binance uses DPoS consensus algorithm, which is prone to centralization.
+						      	Binance is one of the biggest crypto-asset exchanges in the world. 
+						      	<br> BNB is used by Binance to incentivize users through lowered fees for BNB holders. The exchange also uses a certain percentage of the profits to buy-back BNB and burn them, to create scarcity. This way, the exchange uses token economics to transfer value to the token holders.
+						      	<hr>
+								The name "Binance" is a combination of binary and finance. As of 2019, many businesses accept BNB as a form of payment.
 						      </p>
 						    </div>
 						  </div>
@@ -224,10 +255,11 @@
 						    <div class="card-body text-center">
 						      <p class="card-text-2">
 						      Technology points:
-							Binance Coin (BNB) is the native token to the Binance Blockchain.
-							BNB was originally created as ERC-20 token on Ethereum blockchain.
-							Binance Coin has been growing gradually and one of the top coin's aiming for the mass adoption of blockchain payments.
-							Binance runs the top IEOs on their platform with up-to one month lock-up period of BNB holdings to get eligible for the lottery system.
+							Bbinance Coin (BNB) is the native token to the Binance Blockchain.
+							<hr>
+							Binance Coin has been growing gradually and one of the top coins' aiming for the mass adoption of blockchain payments.
+							<hr>
+							Binance also runs the top IEOs on their platform with up-to one month lock-up period of BNB holdings to get eligible for the lottery system.
 						  </p>
 						    </div>
 						  </div>
@@ -268,8 +300,14 @@
 			 <!---------coin-4--------->
 			 <div id="coin-4" class="container-fluid c4-bg">
 			 	<!---------DASH--------->
-			 	<img src="./images/dash_digital-cash_logo_2018_rgb_for_screens.png" class="heading-img" style="height: 210px;">
-			 	<h1></h1>
+			 	<div class="row">
+					<div class="col-2">
+						<img src=".\images\dash-logo-300x300.png" class="heading-img" style="height: 210px;">
+					</div>	 	
+				 	<div class="col-10">
+				 			<h1 class="c1-h1 outline font-effect-outline"> <strong>DASH</strong> </h1>
+				 	</div>
+			 	</div>
 			 	<div class="row">
 			        <div class="card-deck">
 						  <div class="card bg-primary" style="background-color: white !important; width: 510px">
@@ -286,16 +324,16 @@
 						    <div class="card-body text-center">
 						      <p class="card-text-2">
 						      Technology points:
-						Dash is a bitcoin-based cryptocurrency aims to provide instant transactions, fully-decentralized payment solution and supports optional (privacy) private  transactions.
-						Instantly settled payments (InstantSend)
-						Dash payments are fast, secure, and with almost zero fees.
-						Instantly immutable blockchain (ChainLocks)
-						Optional privacy (PrivateSend)
-						Dash implements POW protocol with own Dash nodes network.
+						Dash is a bitcoin-based cryptocurrency that aims to provide instant transactions, to be a competitor for Paypal.
+						<hr>
+						decentralized payment solution's that are fast, secure, and with almost zero fees  and supports optional (privacy) PrivateSend and
+						Instantly settled/ immutable payments (InstantSend/ ChainLocks).
+						<hr>
+						Dash implements s POW protocol with it's own Dash nodes network which work as decentralized project governance (Masternodes).
 						Dash master nodes allow users to send fast and private transactions.
-						Current block size is 2mb but the system allows up to 400mb per block.
-						Dash aimed to be a competitor for Paypal on the Blockchain. 
-						Two-tier network with incentivized nodes and decentralized project governance (Masternodes)
+						the current block size is 2mb but the system allows up to 400mb per block.
+
+						
 						  </p>
 						    </div>
 						  </div>
@@ -336,14 +374,26 @@
 			    <!---------coin-5--------->
 			 <div id="coin-5" class="container-fluid c5-bg">
 			 	<!---------Chainlink (LINK)--------->
-			 	<img src="./images/chainlink-logo.jpg" class="heading-img" style="height: 210px;">
-			 	<h1></h1>
+			 	<div class="row">
+					<div class="col-2">
+						<img src=".\images\qvSHhRyC.jpg" class="heading-img" style="height: 210px;">
+					</div>	 	
+				 	<div class="col-10">
+				 			<h1 class="c1-h1 outline font-effect-outline"> <strong>Chain Link</strong> </h1>
+				 	</div>
+			 	</div>
 			 	<div class="row">
 			        <div class="card-deck">
 						  <div class="card bg-primary" style="background-color: #2a5ada !important; width: 510px">
 						    <div class="card-body text-center">
 						      <p class="card-text">
-						      	Chainlink (LINK) is a decentralized oracle service, which aims to connect smart contracts with data from the real world. Since blockchains cannot access data outside their network, oracles are needed to function as data feeds in smart contracts. Oracles provide external data (e.g. temperature, weather) that trigger smart contract executions upon the fulfillment of pre-defined conditions. Participants on the Chainlink network are incentivized (through rewards) to provide smart contracts with access to external data feeds. Should users desire access to off-chain data, they can submit a requesting contract to ChainLink’s network. These contracts will match the requesting contract with the appropriate oracles. The contracts include a reputation contract, an order-matching contract, and an aggregating contract. The aggregating contract gathers data of the selected oracles to find the most accurate result.
+						      	Chainlink (LINK) is a decentralized oracle service, which aims to connect smart contracts with data from the real world. 
+						      	<br>
+						      	Since blockchains cannot access data (e.g. temperature, weather) outside their network, oracles are needed to function as data feeds that trigger executions of pre-defined conditions in smart contracts.
+						      	<br>
+						      	 Participants on the Chainlink network are incentivized (through rewards) to provide smart contracts with access to external data feeds. 
+						      	 <br>
+						      	  The contracts include a reputation contract, an order-matching contract, and an aggregating contract. The aggregating contract gathers data of the selected oracles to find the most accurate result.
 						      	<br>
 						      </p>
 						    </div>
@@ -353,11 +403,11 @@
 						      <p class="card-text-2">
 						      Technology points:
 						Chainlink is middleware to simplify communication with blockchains.
-
+						<hr>
 						ChainLink, a decentralized oracle network, provides the on-chain components for contracts to gain external connectivity, and the software powering the nodes of the network.
-
+						<hr>
 						ChainLink’s core functional objective is to bridge two environments: on-chain and offchain.
-
+						<hr>
 						The Chainlink network provides reliable tamper-proof inputs and outputs for complex smart contracts on any blockchain.
 						  </p>
 						    </div>
@@ -399,15 +449,22 @@
 			    <!---------coin-6--------->
 			 <div id="coin-6" class="container-fluid c6-bg">
 			 	<!---------BITCOIN cash--------->
-			 	<img src="./images/5-bitcoin-cash-logo-horizontal-wt-large.png" class="heading-img" style="height: 210px; width: inherit; ">
+			 	<div class="row">
+					<div class="col-2">
+						<img src=".\images\bitcoin.jpg" class="heading-img" style="height: 210px;">
+					</div>	 	
+				 	<div class="col-10">
+				 			<h1 class="c1-h1 outline font-effect-outline" style="font-size: 123px"> <strong>BITCOIN Cash</strong> </h1>
+				 	</div>
+			 	</div>
 			 	<!-----inherit/ look------->
-			 	<h1></h1>
 			 	<div class="row">
 			        <div class="card-deck">
 						  <div class="card bg-primary" style="background-color: white !important; width: 510px">
 						    <div class="card-body text-center">
 						      <p class="card-text">
-						      	Bitcoin Cash (BCH) is hard fork (a community-activated update to the protocol or code) of Bitcoin that took effect on August 1st, 2017 that increased the block size to 8MB, to help the scale the underlying technology of Bitcoin.
+						      	Bitcoin Cash (BCH) is hard fork (a community-activated update to the protocol/ code) of Bitcoin that took effect on August 1st, 2017 that increased the block size to 8MB, to help the scale the underlying technology of Bitcoin.
+						      	<hr>
 								fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations
 						      	<br>
 						      </p>
@@ -416,8 +473,9 @@
 						  <div class="card bg-warning" style="background-color: #f79517 !important; width: 510px">
 						    <div class="card-body text-center">
 						      <p class="card-text-2">
-						      Technology points:
+						      Technology points: 
 								Bitcoin Cash is a hard fork of bitcoin increasing the maximum block size to 8 MB (against 1 MB in BTC) for accelerating the verification process.
+								<hr>
 								BCH was hard forked again and split into Bitcoin SV and Bitcoin ABC in Nov/2018.
 								Bitcoin ABC became the dominant chain and took over the BCH ticker as it had more hashpower and majority of the nodes in the network
 								(majority of exchanges are using the Bitcoin Cash (BCH) to refer to the Bitcoin Cash ABC implementation.)
@@ -460,15 +518,25 @@
 
 			     <!---------coin-7--------->
 			 <div id="coin-7" class="container-fluid c7-bg">
-			 	<!---------CARDANO--------->			 	<h1></h1>
-			 	<img src="./images/monnaie-caradano.jpg" class="heading-img" style="height: 210px;">
-			 	<h1></h1>
+			 	<!---------CARDANO--------->
+			 	<div class="row">
+					<div class="col-2">
+						<img src=".\images\cardano-logo.jpg" class="heading-img" style="height: 210px;">
+					</div>	 	
+				 	<div class="col-10">
+				 			<h1 class="c1-h1 outline font-effect-outline" style="font-size: 123px"> <strong>Cardano</strong> </h1>
+				 	</div>
+			 	</div>
 			 	<div class="row">
 			        <div class="card-deck">
 						  <div class="card bg-primary" style="background-color: #ffffff !important; width: 510px">
 						    <div class="card-body text-center">
 						      <p class="card-text">
-						      	Cardano (ADA) is a decentralized platform that will allow complex programmable transfers of value in a secure and scalable fashion. It is reportedly the first blockchain platform to evolve out of a scientific philosophy and a research-first driven approach, and one of the first to be built in the Haskell programming language. Cardano is developing a smart contract platform which seeks to deliver more advanced features than any protocol previously developed. The development team consists of a large global collective of expert engineers and researchers. The protocol reportedly features a layered blockchain software stack that is flexible, scalable, and is being developed with the most rigorous academic and commercial software standards in the industry. Cardano will use a democratic governance system that allows the project to evolve over time, and fund itself sustainably through a treasury system.
+						      	Cardano (ADA) is a decentralized platform that will allow complex programmable transfers of value in a secure and scalable fashion.
+						      	 It is reportedly the first blockchain platform to evolve out of a scientific philosophy and a research-first driven approach.
+						      	 The development team consists of a large global collective of expert engineers and researchers.
+						      	  The protocol reportedly features a layered blockchain software stack that is flexible, scalable, and is being developed with the most rigorous academic and commercial software standards in the industry.
+						      	  Cardano will use a democratic governance system that allows the project to evolve over time, and fund itself sustainably through a treasury system.
 						      </p>
 						    </div>
 						  </div>
@@ -476,11 +544,11 @@
 						    <div class="card-body text-center">
 						      <p class="card-text-2">
 						      Technology points:
-						Cardano (ADA) is a decentralized public blockchain that allows complex programmable transfers in a secure and scalable way
+						Cardano (ADA) is a decentralized public blockchain that allows complex programmable transfers in a secure and scalable way.
 						Cardano is considered to be a 3rd generation protocol (first generation Bitcoin, and the second generation is Ethereum).
-						Cardano’s mission is to resolve known Ethereum scalability issues and aiming to provide open access for all financial services.
-						Cardano is the first blockchain written in Haskell programming language and smart contracts language is Plutus with POS algorithm.
-						Cardano has 2 layers, Cardano Settlement Layer which is responsible for ADA currency transactions in-network, and second layer, Cardano Computation Layer needed for supporting smart contracts.
+						Cardano is the first blockchain written in Haskell programming language and the smart contract language is Plutus, with POS algorithm.
+						<hr>
+						Cardano has 2 layers, Cardano Settlement Layer which is responsible for ADA currency transactions , and a second layer, Cardano Computation Layer needed for supporting smart contracts.
 						Cardano uses Ouroboros proof of stake instead of proof of work, which is more energy-efficient.
 						This project was started by ex co-founder of Ethereum and Ethereum classic, Charles Hoskinson.
 						  </p>
@@ -522,26 +590,37 @@
 
 			     <!---------coin-8--------->
 			 <div id="coin-8" class="container-fluid c8-bg">
-			 	<!---------EOS--------->			 	<h1></h1>
-			 	<img src="./images/how-to-buy-EOS-coin.png" class="heading-img" style="height: 210px;">
-			 	<h1></h1>
+			 	<!---------EOS--------->
+			 	<div class="row">
+					<div class="col-2">
+						<img src=".\images\eos-3-logo-black-and-white.png" class="heading-img" style="height: 210px;">
+					</div>	 	
+				 	<div class="col-10">
+				 			<h1 class="c1-h1 outline font-effect-outline" style="font-size: 123px"> <strong>EOS</strong> </h1>
+				 	</div>
+			 	</div> 
 			 	<div class="row">
 			        <div class="card-deck">
 						  <div class="card bg-primary" style="background-color: #565557 !important; width: 510px">
 						    <div class="card-body text-center">
 						      <p class="card-text" style="color:#ffffff"> 
-						      	EOS.IO is a blockchain protocol powered by the native cryptocurrency EOS. The protocol emulates most of the attributes of a real computer including hardware (CPU(s) & GPU(s) for processing, local/RAM memory, hard-disk storage) with the computing resources distributed equally among EOS cryptocurrency holders. EOSIO operates as a smart contract platform and decentralized operating system intended for the deployment of industrial-scale decentralized applications through a decentralized autonomous corporation model. The smart contract platform claims to eliminate transaction fees and also conduct millions of transactions per second. EOS (EOS) is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications. The EOS software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters.
+						      	EOS.IO is a blockchain protocol powered by the native cryptocurrency EOS. 
+						      	The protocol emulates most of the attributes of a real computer including hardware (CPU's & GPU's for processing, local/RAM memory, hard-disk storage) with the computing resources distributed equally among EOS cryptocurrency holders. 
+						      	EOSIO operates as a smart contract platform and decentralized operating system intended for the deployment of industrial-scale decentralized applications through a decentralized autonomous corporation model.  
+						      	EOS (EOS) is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications. 
+						      	The EOS software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters.
 						      </p>
-						    </div>
+						    </div>	file:///D:/code/3/index.html
 						  </div>
 						  <div class="card bg-warning" style="background-color: #fafafa !important; width: 510px">
 						    <div class="card-body text-center">
 						      <p class="card-text-2">
 						      Technology points:
-						EOS's goal is to provide thousands of transactions per second with zero fees. They are claiming to have the ability to conduct millions of transactions per second.
-						The native token, EOS, is a utility token that provides both bandwidth and storage on the blockchain, in proportion to total stake so owning 1% of EOS tokens allows for usage of up to 1% of the total available bandwidth.
-						EOS implements delegated proof-of-stack protocol and proposing the idea of a decentralized autonomous corporation, that means the EOS tokens owner can cast votes and participate in the on-chain governance of the blockchain in proportion to the owner's stake.
-						EOS provides the ability to write smart contracts using language built upon the EOS platform
+							EOS's goal is to provide thousands -- miliions of transactions per second with zero fees.
+							The native token, EOS, is a utility token that provides both bandwidth and storage on the blockchain, in proportion to total stake so owning 1% of EOS tokens allows for usage of up to 1% of the total available bandwidth.
+							<hr>
+							EOS implements a delegated proof-of-stack protocol and proposing the idea of a decentralized autonomous corporation, that means the EOS tokens owner's can cast votes and participate in the on-chain governance of the blockchain in proportion to the owner's stake.
+							EOS provides the ability to write smart contracts using the language built upon the EOS platform
 						  </p>
 						    </div>
 						  </div>

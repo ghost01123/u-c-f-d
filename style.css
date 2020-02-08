@@ -1,11 +1,33 @@
-    
+/*-      class =
+font-effect-anaglyph
+font-effect-outline
+font-effect-shadow-multiple
+
     /*---------body---------*/
 body {
     position: relative;
     background: url("./images/bg.jpg") ;
+
 }
 h1 {
 	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: 150px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 }
 
 .center {
@@ -23,15 +45,18 @@ h1 {
 	background: url("./images/CN-AA369_futcit_M_20160711125352.jpg") ;
 	background-size: cover;
 	padding-top-top: 1000px;
-	z-index: 3;
+	z-index: 3 !important;
+	padding: 20px;
 }
 
 .hero-image {
-		z-index: 3;
+		z-index: 3 !important;
 
-		} bgvy ghjnvg bhnv
+		}
 
-
+#prog-bars-txt  p{
+	color: purple !important;
+}
 
 
 .card {
@@ -65,16 +90,17 @@ h1 {
 
 
 }
-/*
+
 .c1-h1 {
-	padding-top: 60px;
-	background: url("./images/monero-logo-symbol-on-white-1280.png") no-repeat;
+	font-size: 200px
+	
 	background-size: contain;
 	position: center ;
-	transform: translate(330px, 0px);
+	text-shadow: 9px 12px 15px white;
+	
 }
 
-*/
+
 
 .c2-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
@@ -154,7 +180,7 @@ h1 {
 }
 
 i:hover{
-	color: #e84610;
+	color: #590ecc;
 	cursor: pointer;
 }
 
@@ -166,16 +192,22 @@ i:hover{
 .fb1 {
     position: fixed;
     right: 0;
-    bottom: 48%;
+    bottom: 30%;
     left: 0;
-    z-index: 0;
-    overflow: hidden;
+    z-index: -1;
+    overflow-y: auto;
+    padding-top:450px;
+    margin-top:450PX;
+    text-decoration: none;
+
 
 }
 nav,
 .nav{
 	z-index: 0;
 	overflow: hidden;
+	    padding-top:450px;
+    margin-top:450PX;
 
 }
 
@@ -209,7 +241,7 @@ footer{
 
 .social-networks i:hover, 
 a:hover{
-color: #ff3300;
+color: blue;
 cursor: pointer;
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
