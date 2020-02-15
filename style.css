@@ -6,13 +6,14 @@ font-effect-shadow-multiple
     /*---------body---------*/
 body {
     position: relative;
-    background: url("./images/bg.jpg") ;
+    background: url("./images/bg.jpg");
+    font-size: 62.5%; 
 
 }
 h1 {
 	text-align: center;
 	font-family: 'Inconsolata', monospace;
-	font-size: 150px;
+	font-size: 120px;
 }
 
 h2 {
@@ -40,6 +41,10 @@ a {
 }
 
     /*---------header/ jumbo---------*/
+div.jumbotron.jumbotron-fluid.hero-image{
+	z-index: 3 !important;
+}
+
 .jumbotron{
 	height: 450px;
 	background: url("./images/CN-AA369_futcit_M_20160711125352.jpg") ;
@@ -47,6 +52,7 @@ a {
 	padding-top-top: 1000px;
 	z-index: 3 !important;
 	padding: 20px;
+	margin-bottom: 1rem;
 }
 
 .hero-image {
@@ -59,18 +65,12 @@ a {
 }
 
 
-.card {
-	left: 5%;
-	align-items: center;
-
-
-}
 
 .card {
-		-webkit-transform: translate(10%, 0px);  /* Chrome, Safari, Opera */
-		   -moz-transform: translate(10%, 0px);  /* Firefox */
-			-ms-transform: translate(10%, 0px);  /* IE 9 */
-				transform: translate(10%, 0px);  /* Standard syntax */    
+		-webkit-transform: translate(6.9%, 0px);  /* Chrome, Safari, Opera */
+		   -moz-transform: translate(6.9%, 0px);  /* Firefox */
+			-ms-transform: translate(6.9%, 0px);  /* IE 9 */
+				transform: translate(6.9%, 0px);  /* Standard syntax */   
 	}
 
 
@@ -84,15 +84,14 @@ a {
 .c1-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
 	margin: 0px 0 30px 0;
-	width: 100vw;
-	padding-bottom: 120px;
+	width: 91vw;
+	padding-bottom: 105px;
 	padding-top: ;
-
 
 }
 
 .c1-h1 {
-	font-size: 200px
+	font-size: 120px
 	
 	background-size: contain;
 	position: center ;
@@ -105,13 +104,12 @@ a {
 .c2-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
 	margin: 0px 0 30px 0;
-	width: 100vw;
-	padding-bottom: 120px;
-	padding-top: ;
+	width: 91vw;
+	padding-bottom: 105px;
 }
 
 .c2-bg .card-text {
-	color: #c749b6
+	color: #c749b6;
 }
 
 
@@ -119,51 +117,45 @@ a {
 .c3-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
 	margin: 0px 0 30px 0;
-	width: 100vw;
-	padding-bottom: 120px;
-	padding-top: ;
+	width: 91vw;
+	padding-bottom: 105px;
 }
 
 .c4-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
 	margin: 0px 0 30px 0;
-	width: 100vw;
-	padding-bottom: 120px;
-	padding-top: ;
+	width: 91vw;
+	padding-bottom: 105px;
 }
 
 .c5-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
 	margin: 0px 0 30px 0;
-	width: 100vw;
-	padding-bottom: 120px;
-	padding-top: ;
+	width: 91vw;
+	padding-bottom: 105px;
 
 }
 
 .c6-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
 	margin: 0px 0 30px 0;
-	width: 100vw;
-	padding-bottom: 120px;
-	padding-top: ;
+	width: 91vw;
+	padding-bottom: 105px;
 
 }
 
 .c7-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
 	margin: 0px 0 30px 0;
-	width: 100vw;
-	padding-bottom: 120px;
-	padding-top: ;
+	width: 91vw;
+	padding-bottom: 105px;
 }
 
 .c8-bg{
 	background: url("./images/O7GZQQ0.jpg") ;
 	margin: 0px 0 30px 0;
-	width: 100vw;
-	padding-bottom: 120px;
-	padding-top: ;
+	width: 91vw;
+	padding-bottom: 105px;
 }
 
 .coin-links i {
@@ -183,6 +175,137 @@ i:hover{
 	color: #590ecc;
 	cursor: pointer;
 }
+
+p#prog-bars-txt{
+	color: white !important;
+}
+
+div.col-10, h1.c1-h1.outline{
+	margin-bottom: 3px;
+}
+
+
+
+/* x small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	div.card-body {
+		width: 83vw;
+		font-size: 1.6em
+	}
+
+		#prog-bars-txt {
+		font-size: 1.6em;
+	}
+
+	img.heading-img {
+		height: 120px;
+		width: 100px;
+	}
+
+	h1, strong{
+		font-size: 2em;
+		float: right;
+	}
+
+	div.jumbotron.jumbotron-fluid.hero-image{
+		height: 270px !important;
+	}
+
+	h2{
+		font-size: 21px;
+	}
+
+/* make writing smaller  font size, x-small, small, large, x-large*/
+}
+
+
+
+/* Med devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	div.card-body {
+		width: 39vw;
+		font-size: 1.6em;
+	}
+
+	#prog-bars-txt {
+		font-size: 1.6em;
+	}
+
+	img.heading-img {
+		height: 180px;
+		width: 180px;
+	}
+
+	h1, strong{
+		font-size: 66px;
+		float: right;
+	}
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	div.card-body {
+		width: 42vw;
+		font-size: 1.63em;
+	}
+
+			#prog-bars-txt {
+		font-size: 1.6em;
+	}
+
+	img.heading-img {
+		height: 150px;
+	}
+
+	h1, strong {
+		font-size: 3.3em;
+	}
+
+		div.jumbotron.jumbotron-fluid.hero-image{
+		height: 399px !important;
+	}
+
+
+}
+
+
+/* x large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	h1, strong {
+		font-size: 3.6em
+	}
+
+	div.card-body {
+		width: 36vw;
+		font-size: 2em;
+	}
+
+	#prog-bars-txt {
+		font-size: 2em;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -216,7 +339,12 @@ nav,
 footer{
     height: 100px;
 
-	margin-top: 120px;
+	margin-top: 105px;
+}
+i.far,
+i.fas {
+	padding-top: 21px;
+	margin-top: 21px ;
 }
 
 .social-networks{
