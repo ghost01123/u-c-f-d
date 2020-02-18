@@ -8,17 +8,17 @@ this is my cryptos recommendation website, which displays my favourite out of th
 My intention in the design was to make it straightforward to access information on the site while striving for a minimalist design. The off wight and carbon fibre colour scheme were chosen to create a sleek and modern feel, along with the busy city at the top.
 
 
-## site/ demo
+## Site/ demo
 A live demo can be found [here](https://ghost01123.github.io/u-c-f-d/).
+https://validator.w3.org/
 
 
 
-
-##deployment 
+##Deployment 
 
 the site is hosted using GitHub pages, I deployed it from the master branch, where the site updates automatically.
 
-###deployment/ how to pull the code:
+###How to pull the code:
 
 to run the code locally, you can clone/ download using https...
 
@@ -44,20 +44,24 @@ via the GitHub desktop app click the download/ clone  icon under the repository 
 
 
 ## Features
-This site uses the scroll spy feature in Bootstrap, also progress bars 
+This site uses the scroll spy feature in Bootstrap, so that the menu is allways visable, 
+also there are aimated progress bars from bootstrap too.
+
+###Features Left to Implement
+ - making the menu not cover/ go past the top picture
 
 
 ## Testing
-This site was tested across multiple browsers and on multiple mobile devices to ensure compatibility and responsiveness.
+This site was tested across multiple browsers and on a mobile device to ensure compatibility and responsiveness.
 
 
 ## Credits
 
 ### Content
-the content/ text was taken from theire public decriptions/ coinmarketcap.com 
+the content/ text was taken from theire public decriptions on www.coinmarketcap.com + https://beta.tokenmetrics.com/ and then eddited 
 
 ### Media/ Acknowledgements
-the logos were taken from their official public websites  (which are linked)
+the logos were taken from their official public websites (which are linked)
 
 main photo:
 https://blogs.wsj.com/briefly/2016/07/14/the-future-of-cities-green-building-to-driverless-cars-at-a-glance/
